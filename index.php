@@ -9,17 +9,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href="stylesheets/font-awesome.min.css">
 	<link rel="stylesheet" href="stylesheets/reset.css">
+
 	<link rel="stylesheet" href="stylesheets/style.css">
 
 	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<header>
 		<div class="header_top">
 			<div class="menu_header_left uni_display">
-				<button type="button" class="btn btn_navbar uni_display">
+				<button id="link_Menu" type="button" class="btn btn_navbar uni_display js_btn_click">
 						<span class="icon-bar">
 						</span>
 						<span class="icon-bar">
@@ -55,5 +57,53 @@
 			</div>
 		</div>
 	</header>
+	<main>
+		<div id="div_Menu" class="navbar_menu js_div_menu">
+        	<ul class="navigation nav_bar">
+          		<li class="active">
+            		<a href="#">
+						<img src="image/Exterior-100_sm.png" alt="main_icon" class="img_nav">
+						главная
+					</a>
+          		</li>
+          		<li>
+            		<a href="#">
+						<img src="image/Shopping-Cart-100_sm.png" alt="add_product" class="img_nav">
+						добавить товар
+					</a>
+          		</li>
+          		<li>
+            		<a href="#">
+						<img src="image/Megaphone-100_sm.png" alt="add_article" class="img_nav">
+						добавить новость
+					</a>
+          		</li>
+          		<li>
+            		<a href="#">
+						<img src="image/Open-Folder-100_sm.png" alt="subcategory" class="img_nav">
+						подкатегории
+					</a>
+          		</li>
+          		<li>
+            		<a href="#">
+						<img src="image/Dossier-100_sm.png" alt="directory" class="img_nav">
+						каталог
+					</a>
+          		</li>
+          		<li>
+            		<a href="#">
+						<img src="image/View-Details-100_sm.png" alt="article_list" class="img_nav">
+						список новостей
+					</a>
+          		</li>
+          		<li>
+            		<a href="#">
+						<img src="image/Conference-100_sm.png" alt="manufacturers" class="img_nav">
+						производители
+					</a>
+          		</li>
+        	</ul>
+      	</div>
+	</main>
 </body>
 </html>

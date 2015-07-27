@@ -1,6 +1,4 @@
-// GENERAL
-/*GENERAL*/
-$main_bg: url('../image/main_bg.png') no-repeat fixed;
+$main_bg: #ecf0f1;
 $main_font: 'Roboto', sans-serif;
 
 html, body, p { 
@@ -9,8 +7,11 @@ html, body, p {
 }
 
 body {
-	background: $main_bg;
     font-family: $main_font;
+}
+
+main {
+	background-color: $main_bg;
 }
 
 @import "partials/admin_variables";
