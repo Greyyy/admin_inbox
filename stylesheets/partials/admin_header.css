@@ -1,0 +1,83 @@
+/*
+Error: Undefined variable: "$main_font".
+        on line 33 of C:/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/admin_inbox/sass/partials/admin_header.scss
+
+28: 	margin-left: 25px;
+29: }
+30: .logotype {
+31: 	margin-left: 15px;
+32: 	a {
+33: 		font-family: $main_font;
+34: 		font-size: 25px;
+35: 		color: #fff;
+36: 		text-decoration: none;
+37: 	}
+38: }
+
+Backtrace:
+C:/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/admin_inbox/sass/partials/admin_header.scss:33
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:268:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:328:in `block in watch'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$main_font\".\A         on line 33 of C:/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/admin_inbox/sass/partials/admin_header.scss\A \A 28: 	margin-left: 25px;\A 29: }\A 30: .logotype {\A 31: 	margin-left: 15px;\A 32: 	a {\A 33: 		font-family: $main_font;\A 34: 		font-size: 25px;\A 35: 		color: #fff;\A 36: 		text-decoration: none;\A 37: 	}\A 38: }"; }

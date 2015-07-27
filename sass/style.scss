@@ -1,0 +1,19 @@
+// GENERAL
+/*GENERAL*/
+$main_bg: url('../image/main_bg.png') no-repeat fixed;
+$main_font: 'Roboto', sans-serif;
+
+html, body, p { 
+    margin: 0px; 
+    padding: 0px;
+}
+
+body {
+	background: $main_bg;
+    font-family: $main_font;
+}
+
+@import "partials/admin_variables";
+@import "partials/admin_header";
+@import "partials/admin_helpers";
+@import "compass/reset";
