@@ -21,7 +21,7 @@
 	<header>
 		<div class="header_top">
 			<div class="menu_header_left uni_display">
-				<button id="link_Menu" type="button" class="btn btn_navbar uni_display js_btn_click">
+				<button id="js_link_menu" type="button" class="btn btn_navbar uni_display js_btn_click">
 						<span class="icon-bar">
 						</span>
 						<span class="icon-bar">
@@ -43,14 +43,17 @@
 					</a>
 				</div>
 				<div class="btn_header_admin uni_display">
-					<button type="button" class="btn admin_header_btn" data-toggle="dropdown" aria-expanded="false">
+					<button id="js_btn_dropdown" type="button" class="btn admin_header_btn js_dropdown_toggle" data-toggle="dropdown" aria-expanded="false">
 						<i class="fa fa-user icon_marg_r"></i>
 						Привет, admin_name
 						<i class="fa fa-caret-down icon_marg_l"></i>
 					</button>
-					<ul class="dropdown-menu" role="menu">
+					<ul id="js_dropdown_block" class="dropdown-menu">
 						<li>
-							
+							<form method="post" action="#" class="form_logout">
+								<i class="fa fa-sign-out"></i>
+								<input class="btn btn-exit" type="submit" value="Выйти">
+							</form>
 						</li>
 					</ul>
 				</div>
@@ -58,7 +61,7 @@
 		</div>
 	</header>
 	<main>
-		<div id="div_Menu" class="navbar_menu js_div_menu">
+		<div id="js_div_menu" class="navbar_menu js_div_menu">
         	<ul class="navigation nav_bar">
           		<li class="active">
             		<a href="#">

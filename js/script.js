@@ -1,7 +1,13 @@
 $(document).ready(function(){
- 	var route=$("#div_Menu").offset().left;
- 	$("#link_Menu").click(function(){
-    	if ($("#div_Menu").offset().left<0) $("#div_Menu").animate({left:0},500);
-    	else $("#div_Menu").animate({left:route},500);
+ 	var route=$("#js_div_menu").offset().left;
+ 	$("#js_link_menu").click(function(){
+    	if ($("#js_div_menu").offset().left<0) $("#js_div_menu").animate({left:0},500);
+    	else $("#js_div_menu").animate({left:route},500);
+ 	});
+
+ 	$('#js_btn_dropdown').click(function() {
+ 		if ($('#js_dropdown_block').css('display','none')) {
+ 			$('#js_dropdown_block').css('display', 'block')
+ 		}
  	});
 });

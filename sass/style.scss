@@ -8,13 +8,12 @@ html, body, p {
 
 body {
     font-family: $main_font;
-}
-
-main {
 	background-color: $main_bg;
 }
 
 @import "partials/admin_variables";
 @import "partials/admin_header";
 @import "partials/admin_helpers";
+@import "partials/admin_dropdown_list";
+@import "partials/admin_navbar";
 @import "compass/reset";

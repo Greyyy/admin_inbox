@@ -58,48 +58,4 @@
 		}
 	}
 }
-.navbar_menu {
-	// display: none;
-	position: absolute;
-	left: -295px;
-  	width: 290px;
-  	background-color: #fff;
-  	-webkit-box-shadow: 0px 6px 5px 6px #d2d2d2;
-  	-moz-box-shadow: 0px 6px 5px 6px #d2d2d2;
-  	box-shadow: 0px 6px 5px 6px #d2d2d2;
-  	min-height: 900px;
-  	.nav_bar {
-  		padding-top: 30px;
-		.active {
-			background-color: #ecf0f1;
-			border-top: 1px solid #f7f9f9;
-  			border-bottom: 1px solid #f7f9f9;
-		}
-		li {
-			display: block;
-			cursor: pointer;
-			padding: 15px 15px 15px 26px;
-			&:hover {
-				background-color: #ecf0f1;
-			}
-			a {
-				font-family: $main_font;
-				color: #696969;
-				text-transform: uppercase;
-				text-decoration: none;
-				font-size: 18px;
-				.img_nav {
-					width: 24px;
-					height: 24px;
-					margin-right: 25px;
-				}
-			}
-		}
-  	}
-}
 
-.extremum-slide {
-	border:1px solid;
-	padding:50px;
-	display:none;
-}
