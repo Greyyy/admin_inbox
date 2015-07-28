@@ -327,6 +327,84 @@ body {
   color: #fff;
 }
 
+/* line 1, ../sass/partials/_admin_login.scss */
+.login_page {
+  background-color: #009be5;
+  min-height: 700px;
+  width: 100%;
+}
+/* line 5, ../sass/partials/_admin_login.scss */
+.login_page .login_pad {
+  padding-left: 30%;
+  padding-top: 8%;
+}
+/* line 9, ../sass/partials/_admin_login.scss */
+.login_page .login_content {
+  vertical-align: top;
+  margin-right: 7%;
+  width: 18%;
+}
+/* line 13, ../sass/partials/_admin_login.scss */
+.login_page .login_content .login_img {
+  display: table;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+/* line 19, ../sass/partials/_admin_login.scss */
+.login_page .login_content .login_description {
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  text-align: right;
+  font-size: 18px;
+  color: #fff;
+}
+/* line 27, ../sass/partials/_admin_login.scss */
+.login_page .login_form {
+  background: url("../image/form_bg.png") no-repeat;
+  font-family: "Roboto", sans-serif;
+  vertical-align: top;
+  height: 250px;
+  width: 40%;
+}
+/* line 33, ../sass/partials/_admin_login.scss */
+.login_page .login_form .login_inp {
+  padding: 10px 5px 10px 15px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  outline-color: #1abc9c;
+  margin: 20px 0 10px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #34495e;
+  border: none;
+  width: 81%;
+}
+/* line 46, ../sass/partials/_admin_login.scss */
+.login_page .login_form .login_submit {
+  padding: 15px 0px 14px 0px;
+  background-color: #009be5;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 16px;
+  display: table;
+  margin: auto;
+  border: none;
+  color: #fff;
+  width: 87%;
+}
+/* line 59, ../sass/partials/_admin_login.scss */
+.login_page .login_form .forgot_ps {
+  text-decoration: underline;
+  padding-top: 16px;
+  font-size: 14px;
+  color: #cfd5d9;
+  display: table;
+  margin: auto;
+}
+
 /* line 5, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

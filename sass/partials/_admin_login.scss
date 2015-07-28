@@ -1,0 +1,68 @@
+.login_page {
+	background-color: #009be5;
+	min-height: 700px;
+	width: 100%;
+	.login_pad {
+		padding-left: 30%;
+  		padding-top: 8%;
+	}
+	.login_content {
+		vertical-align: top;
+		margin-right: 7%;
+		width: 18%;
+		.login_img {
+			display: table;
+			height: 100px;
+			width: 100px;
+			margin: auto;
+		}
+		.login_description {
+			font-family: $main_font;
+			line-height: 20px;
+			text-align: right;
+			font-size: 18px;
+			color: #fff;
+		}
+	}
+	.login_form {
+		background: url('../image/form_bg.png') no-repeat;
+		font-family: $main_font;
+		vertical-align: top;
+		height: 250px;
+		width: 40%;
+		.login_inp {
+		  	padding: 10px 5px 10px 15px;
+		  	line-height: 1.42857143;
+		  	background-color: #fff;
+     		outline-color: #1abc9c;
+     		margin: 20px 0 10px 25px;
+		  	border-radius: 5px;
+		  	font-weight: bold;
+		  	font-size: 18px;
+		  	color: #34495e;
+		  	border: none;
+			width: 81%;
+		}
+		.login_submit {
+		  	padding: 15px 0px 14px 0px;
+		  	background-color: #009be5;
+		  	text-decoration: none;
+		  	border-radius: 7px;
+		  	font-weight: bold;
+		  	font-size: 16px;
+		  	display: table;
+		  	margin: auto;
+		  	border: none;
+		  	color: #fff;
+		    width: 87%;
+		}
+		.forgot_ps {
+			text-decoration: underline;
+  			padding-top: 16px;	
+			font-size: 14px;
+			color: #cfd5d9;
+  			display: table;
+		  	margin: auto;
+		}
+	}
+}
