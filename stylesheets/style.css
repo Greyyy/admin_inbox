@@ -81,13 +81,12 @@ body {
   font-size: 15px;
 }
 /* line 52, ../sass/partials/_admin_header.scss */
-.btn_header_admin .admin_header_btn .icon_marg_r {
-  margin-right: 10px;
-  font-size: 20px;
+.btn_header_admin .admin_header_btn .desc_btn {
+  margin: 0 10px 0 10px;
 }
-/* line 56, ../sass/partials/_admin_header.scss */
-.btn_header_admin .admin_header_btn .icon_marg_l {
-  margin-left: 10px;
+/* line 55, ../sass/partials/_admin_header.scss */
+.btn_header_admin .admin_header_btn .icon_btn {
+  font-size: 20px;
 }
 
 /* line 1, ../sass/partials/_admin_helpers.scss */

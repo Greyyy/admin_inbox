@@ -49,12 +49,11 @@
 	.admin_header_btn {
 		color: #fff;
 		font-size: 15px;
-		.icon_marg_r {
-			margin-right: 10px;
-			font-size: $icon-font;
+		.desc_btn {
+			margin: 0 10px 0 10px;
 		}
-		.icon_marg_l {
-			margin-left: 10px;
+		.icon_btn {
+			font-size: $icon-font;
 		}
 	}
 }

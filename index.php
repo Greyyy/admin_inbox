@@ -44,9 +44,11 @@
 				</div>
 				<div class="btn_header_admin uni_display">
 					<button id="js_btn_dropdown" type="button" class="btn admin_header_btn js_dropdown_toggle" data-toggle="dropdown" aria-expanded="false">
-						<i class="fa fa-user icon_marg_r"></i>
-						Привет, admin_name
-						<i class="fa fa-caret-down icon_marg_l"></i>
+						<i class="fa fa-user icon_btn"></i>
+						<span class="desc_btn">
+							Привет, admin_name
+						</span>
+						<i class="fa fa-caret-down icon_btn"></i>
 					</button>
 					<ul id="js_dropdown_block" class="dropdown-menu">
 						<li>
