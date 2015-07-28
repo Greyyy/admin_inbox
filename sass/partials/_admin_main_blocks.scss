@@ -1,0 +1,37 @@
+.blocks {
+	cursor: pointer;
+	margin: 50px 5px 20px 20px;
+	.block_content {
+  		width: 20%;
+  		min-height: 210px;
+  		background-color: #fff;
+  		margin-right: 1%;
+  		padding: 25px 18px 15px 18px;
+	}
+	.img_content {
+	  	display: table;
+	  	margin: auto;
+	  	width: 100px;
+	  	height: 100px;
+	}
+	.block_description {
+		font-size: 20px;
+		text-align: center;
+		font-weight: bold;
+		padding: 30px 5px 30px 5px;
+		color: #34495d;	
+	}
+	.btn_block {
+		background-color: #009be5;
+	    font-size: 15px;
+	    font-weight: bold;
+	    padding: 10px 70px 10px 70px;
+	    margin: 15px 0px 10px 0px;
+	    border-radius: 3px;
+	    text-decoration: $decor;
+		color: #fff;
+		&:hover {
+			background: #47799;
+		}
+	}
+}

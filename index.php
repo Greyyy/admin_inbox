@@ -109,6 +109,94 @@
           		</li>
         	</ul>
       	</div>
+		<div class="container_main">
+			<h1 class="admin_title_main">
+				Выберите страницу или категорию
+			</h1>
+			<div class="blocks">
+				<div class="block_content uni_display">
+					<img src="image/Shopping-Cart-100.png" alt="add_product" class="img_content">
+					<p class="block_description">
+						Добавить товар
+					</p>
+					<a href="#" class="btn_block">
+						Перейти
+					</a>
+				</div>
+				<div class="block_content uni_display">
+					<img src="image/Megaphone-100.png" alt="add_article" class="img_content">
+					<p class="block_description">
+						Добавить новость
+					</p>
+					<a href="#" class="btn_block">
+						Перейти
+					</a>
+				</div>
+				<div class="block_content uni_display">
+					<img src="image/Open Folder-100.png" alt="subcategory" class="img_content">
+					<p class="block_description">
+						Подкатегории
+					</p>
+					<a href="#" class="btn_block">
+						Перейти
+					</a>
+				</div>
+				<div class="block_content uni_display">
+					<img src="image/Dossier-100.png" alt="catalog" class="img_content">
+					<p class="block_description">
+						Каталог
+					</p>
+					<a href="#" class="btn_block">
+						Перейти
+					</a>
+				</div>		
+			</div>
+			<h1 class="admin_title_main">
+				 Дополнительная поддержка
+			</h1>
+			<div class="blocks_support">
+				<div class="block_content_support uni_display">
+					<img src="image/circle_doc.png" alt="doc" class="img_circle">
+					<a href="#" class="btn_block_support">
+						Загрузить
+					</a>
+					<p class="description_support">
+						Загрузить инструкцию по использованию данной админ панели
+					</p>
+				</div> 
+				<div class="block_content_support uni_display">
+					<img src="image/circle_man.png" alt="man" class="img_circle">
+					<a href="#" class="btn_block_support pad_btn">
+						Связаться с нами
+					</a>
+					<p class="description_support">
+						Описание действия, которое необходимо выполнить
+					</p>
+				</div>
+				<div class="block_content_support uni_display">
+					<img src="image/circle.png" alt="circle" class="img_circle">
+					<a href="#" class="btn_block_support">
+						Действие
+					</a>
+					<p class="description_support">
+						Текст описывающий действие, которое необходимо выполнить
+					</p>
+				</div>	
+			</div>
+			<a id="scroller" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
+				<i class="fa fa-chevron-up fa-lg"></i>
+			</a>			
+		</div>
 	</main>
+	<footer>
+		<div class="footer_copy">
+			<p class="admin_copy_footer">
+				made by
+				<a href="http://www.dev.bzzz.biz.ua" target="_blank">
+					<img src="image/bzzz.png" alt="bzzz-copy">
+				</a>
+			</p>
+		</div>
+	</footer>
 </body>
 </html>

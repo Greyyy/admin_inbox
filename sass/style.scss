@@ -1,7 +1,7 @@
 $main_bg: #ecf0f1;
 $main_font: 'Roboto', sans-serif;
 
-html, body, p { 
+html, body { 
     margin: 0px; 
     padding: 0px;
 }
@@ -11,9 +11,40 @@ body {
 	background-color: $main_bg;
 }
 
+// VARIABLES
 @import "partials/admin_variables";
-@import "partials/admin_header";
+
+//HELPERS
 @import "partials/admin_helpers";
-@import "partials/admin_dropdown_list";
+
+//HEADER
+/* HEADER */
+@import "partials/admin_header";
+
+//NAVBAR
+/*NAVBAR*/
 @import "partials/admin_navbar";
+
+//DROPLIST
+@import "partials/admin_dropdown_list";
+
+//MAIN_BLOCK
+/*MAIN_BLOC*/
+@import "partials/admin_main";
+
+//MAIN_CONTENT_BLOCKS
+@import "partials/admin_main_blocks";
+
+//MAIN_CONTENT_BLOCKS_SUPPORT
+@import "partials/admin_main_support";
+
+//SCROLLER
+/*SCROLLER*/
+@import "partials/admin_scroller";
+
+//ADMIN_FOOTER
+/*ADMIN_FOOTER*/
+@import "partials/admin_footer";
+
+//RESET
 @import "compass/reset";

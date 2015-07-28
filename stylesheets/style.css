@@ -1,5 +1,5 @@
 /* line 4, ../sass/style.scss */
-html, body, p {
+html, body {
   margin: 0px;
   padding: 0px;
 }
@@ -10,6 +10,29 @@ body {
   background-color: #ecf0f1;
 }
 
+/* line 1, ../sass/partials/_admin_helpers.scss */
+.uni_display {
+  display: inline-block;
+}
+
+/* line 4, ../sass/partials/_admin_helpers.scss */
+.fl {
+  float: left;
+}
+
+/* line 7, ../sass/partials/_admin_helpers.scss */
+.fr {
+  float: right;
+}
+
+/* line 10, ../sass/partials/_admin_helpers.scss */
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* HEADER */
 /* line 1, ../sass/partials/_admin_header.scss */
 .header_top {
   display: block;
@@ -73,65 +96,24 @@ body {
 
 /* line 47, ../sass/partials/_admin_header.scss */
 .btn_header_admin {
+  cursor: pointer;
   margin-left: 40px;
 }
-/* line 49, ../sass/partials/_admin_header.scss */
+/* line 50, ../sass/partials/_admin_header.scss */
 .btn_header_admin .admin_header_btn {
   color: #fff;
   font-size: 15px;
 }
-/* line 52, ../sass/partials/_admin_header.scss */
+/* line 53, ../sass/partials/_admin_header.scss */
 .btn_header_admin .admin_header_btn .desc_btn {
   margin: 0 10px 0 10px;
 }
-/* line 55, ../sass/partials/_admin_header.scss */
+/* line 56, ../sass/partials/_admin_header.scss */
 .btn_header_admin .admin_header_btn .icon_btn {
   font-size: 20px;
 }
 
-/* line 1, ../sass/partials/_admin_helpers.scss */
-.uni_display {
-  display: inline-block;
-}
-
-/* line 4, ../sass/partials/_admin_helpers.scss */
-.fl {
-  float: left;
-}
-
-/* line 7, ../sass/partials/_admin_helpers.scss */
-.fr {
-  float: right;
-}
-
-/* line 10, ../sass/partials/_admin_helpers.scss */
-.btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/* line 1, ../sass/partials/_admin_dropdown_list.scss */
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 53px;
-  right: 25px;
-  min-height: 56px;
-  width: 286px;
-}
-/* line 8, ../sass/partials/_admin_dropdown_list.scss */
-.dropdown-menu li {
-  background: url("../image/Container.png") no-repeat;
-  padding: 25px 10px 15px 84px;
-  font-size: 15px;
-}
-/* line 12, ../sass/partials/_admin_dropdown_list.scss */
-.dropdown-menu li .form_logout {
-  cursor: pointer;
-  color: #696969;
-}
-
+/*NAVBAR*/
 /* line 1, ../sass/partials/_admin_navbar.scss */
 .navbar_menu {
   position: absolute;
@@ -141,7 +123,7 @@ body {
   -webkit-box-shadow: 0px 6px 5px 6px #d2d2d2;
   -moz-box-shadow: 0px 6px 5px 6px #d2d2d2;
   box-shadow: 0px 6px 5px 6px #d2d2d2;
-  min-height: 900px;
+  min-height: 1288px;
 }
 /* line 10, ../sass/partials/_admin_navbar.scss */
 .navbar_menu .nav_bar {
@@ -176,6 +158,173 @@ body {
   width: 24px;
   height: 24px;
   margin-right: 25px;
+}
+
+/* line 1, ../sass/partials/_admin_dropdown_list.scss */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 53px;
+  right: 25px;
+  min-height: 56px;
+  width: 286px;
+}
+/* line 8, ../sass/partials/_admin_dropdown_list.scss */
+.dropdown-menu li {
+  background: url("../image/Container.png") no-repeat;
+  padding: 25px 10px 15px 84px;
+  font-size: 15px;
+}
+/* line 12, ../sass/partials/_admin_dropdown_list.scss */
+.dropdown-menu li .form_logout {
+  cursor: pointer;
+  color: #696969;
+}
+
+/*MAIN_BLOC*/
+/* line 1, ../sass/partials/_admin_main.scss */
+.container_main {
+  font-family: "Roboto", sans-serif;
+  padding-top: 0;
+  width: 75%;
+  min-width: 745px;
+  position: relative;
+  overflow: auto;
+  height: 100%;
+  min-height: 1300px;
+  margin-left: 22%;
+}
+/* line 11, ../sass/partials/_admin_main.scss */
+.container_main .admin_title_main {
+  font-size: 27px;
+  color: #676767;
+  margin: 55px 20px 20px 35px;
+}
+
+/* line 1, ../sass/partials/_admin_main_blocks.scss */
+.blocks {
+  cursor: pointer;
+  margin: 50px 5px 20px 20px;
+}
+/* line 4, ../sass/partials/_admin_main_blocks.scss */
+.blocks .block_content {
+  width: 20%;
+  min-height: 210px;
+  background-color: #fff;
+  margin-right: 1%;
+  padding: 25px 18px 15px 18px;
+}
+/* line 11, ../sass/partials/_admin_main_blocks.scss */
+.blocks .img_content {
+  display: table;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+/* line 17, ../sass/partials/_admin_main_blocks.scss */
+.blocks .block_description {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px 5px 30px 5px;
+  color: #34495d;
+}
+/* line 24, ../sass/partials/_admin_main_blocks.scss */
+.blocks .btn_block {
+  background-color: #009be5;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 70px 10px 70px;
+  margin: 15px 0px 10px 0px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+}
+/* line 33, ../sass/partials/_admin_main_blocks.scss */
+.blocks .btn_block:hover {
+  background: #47799;
+}
+
+/* line 1, ../sass/partials/_admin_main_support.scss */
+.blocks_support {
+  cursor: pointer;
+  margin: 50px 5px 20px 20px;
+}
+/* line 4, ../sass/partials/_admin_main_support.scss */
+.blocks_support .block_content_support {
+  width: 20%;
+  min-height: 210px;
+  margin-right: 9%;
+  padding: 25px 18px 15px 18px;
+}
+/* line 10, ../sass/partials/_admin_main_support.scss */
+.blocks_support .img_circle {
+  display: table;
+  margin: auto;
+  padding-bottom: 35px;
+}
+/* line 15, ../sass/partials/_admin_main_support.scss */
+.blocks_support .btn_block_support {
+  background-color: #009be5;
+  display: table;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 55px 15px 55px;
+  margin: auto;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+}
+/* line 25, ../sass/partials/_admin_main_support.scss */
+.blocks_support .btn_block_support:hover {
+  background-color: #47799;
+}
+/* line 29, ../sass/partials/_admin_main_support.scss */
+.blocks_support .pad_btn {
+  padding: 15px 30px 15px 30px;
+}
+/* line 32, ../sass/partials/_admin_main_support.scss */
+.blocks_support .description_support {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px 5px 30px 5px;
+  color: #34495d;
+}
+
+/*SCROLLER*/
+/* line 1, ../sass/partials/_admin_scroller.scss */
+#scroller {
+  bottom: 0px;
+  right: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 2px solid #3bb0e8;
+}
+/* line 8, ../sass/partials/_admin_scroller.scss */
+#scroller i {
+  font-size: 18px;
+  color: #3bb0e8;
+}
+
+/*ADMIN_FOOTER*/
+/* line 1, ../sass/partials/_admin_footer.scss */
+.footer_copy {
+  background-color: #7f8c8d;
+  -webkit-box-shadow: 0px 6px 5px 6px #d2d2d2;
+  -moz-box-shadow: 0px 6px 5px 6px #d2d2d2;
+  box-shadow: 0px 6px 5px 6px #d2d2d2;
+  min-height: 70px;
+}
+/* line 7, ../sass/partials/_admin_footer.scss */
+.footer_copy .admin_copy_footer {
+  font-family: "Roboto", sans-serif;
+  padding-top: 30px;
+  font-weight: 200;
+  display: table;
+  margin: auto;
+  color: #fff;
 }
 
 /* line 5, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
