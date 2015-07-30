@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Административный доступ</title>
+	<title>Административный доступ к админке</title>
 	
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -27,8 +27,8 @@
 				</p>
 			</div>
 			<form action="#" method="post" class="login_form uni_display">
-				<input type="text" class="login_inp" placeholder="Логин">
-				<input type="password" class="login_inp">
+				<input type="text" class="login_uni_inp" placeholder="Логин">
+				<input type="password" class="login_uni_inp">
 				<input type="submit" class="login_submit" value="Войти">
 				<a href="#" class="forgot_ps">
 					Потеряли пароль?

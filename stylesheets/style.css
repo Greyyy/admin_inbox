@@ -32,17 +32,32 @@ body {
   cursor: pointer;
 }
 
+/* line 15, ../sass/partials/_admin_helpers.scss */
+.login_uni_inp {
+  padding: 10px 5px 10px 15px;
+  margin: 20px 0 10px 25px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  outline-color: #1abc9c;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #34495e;
+  border: none;
+  width: 81%;
+}
+
 /* HEADER */
 /* line 1, ../sass/partials/_admin_header.scss */
 .header_top {
-  display: block;
-  position: relative;
-  background-color: #039be5;
   -webkit-box-shadow: 0px 6px 5px 0px #d2d2d2;
   -moz-box-shadow: 0px 6px 5px 0px #d2d2d2;
   box-shadow: 0px 6px 5px 0px #d2d2d2;
-  width: 100%;
+  background-color: #039be5;
+  position: relative;
+  display: block;
   height: 100%;
+  width: 100%;
 }
 
 /* line 11, ../sass/partials/_admin_header.scss */
@@ -51,12 +66,12 @@ body {
 }
 /* line 13, ../sass/partials/_admin_header.scss */
 .btn_navbar .icon-bar {
+  background-color: #fff;
+  border-radius: 1px;
+  margin-top: 3px;
   display: block;
   width: 20px;
   height: 2px;
-  border-radius: 1px;
-  background-color: #fff;
-  margin-top: 3px;
 }
 
 /* line 22, ../sass/partials/_admin_header.scss */
@@ -66,8 +81,8 @@ body {
 
 /* line 25, ../sass/partials/_admin_header.scss */
 .menu_header_rigth {
-  width: 35%;
   margin-left: 25px;
+  width: 35%;
 }
 
 /* line 29, ../sass/partials/_admin_header.scss */
@@ -77,9 +92,9 @@ body {
 /* line 31, ../sass/partials/_admin_header.scss */
 .logotype a {
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
   font-size: 25px;
   color: #fff;
-  text-decoration: none;
 }
 
 /* line 38, ../sass/partials/_admin_header.scss */
@@ -90,8 +105,8 @@ body {
 }
 /* line 42, ../sass/partials/_admin_header.scss */
 .icon_button i {
-  margin-right: 10px;
   font-size: 20px;
+  margin-right: 10px;
 }
 
 /* line 47, ../sass/partials/_admin_header.scss */
@@ -116,14 +131,14 @@ body {
 /*NAVBAR*/
 /* line 1, ../sass/partials/_admin_navbar.scss */
 .navbar_menu {
-  position: absolute;
-  left: -295px;
-  width: 290px;
-  background-color: #fff;
   -webkit-box-shadow: 0px 6px 5px 6px #d2d2d2;
   -moz-box-shadow: 0px 6px 5px 6px #d2d2d2;
   box-shadow: 0px 6px 5px 6px #d2d2d2;
+  background-color: #fff;
   min-height: 1288px;
+  position: absolute;
+  left: -295px;
+  width: 290px;
 }
 /* line 10, ../sass/partials/_admin_navbar.scss */
 .navbar_menu .nav_bar {
@@ -131,15 +146,15 @@ body {
 }
 /* line 12, ../sass/partials/_admin_navbar.scss */
 .navbar_menu .nav_bar .active {
-  background-color: #ecf0f1;
-  border-top: 1px solid #f7f9f9;
   border-bottom: 1px solid #f7f9f9;
+  border-top: 1px solid #f7f9f9;
+  background-color: #ecf0f1;
 }
 /* line 17, ../sass/partials/_admin_navbar.scss */
 .navbar_menu .nav_bar li {
+  padding: 15px 15px 15px 26px;
   display: block;
   cursor: pointer;
-  padding: 15px 15px 15px 26px;
 }
 /* line 21, ../sass/partials/_admin_navbar.scss */
 .navbar_menu .nav_bar li:hover {
@@ -147,27 +162,27 @@ body {
 }
 /* line 24, ../sass/partials/_admin_navbar.scss */
 .navbar_menu .nav_bar li a {
-  font-family: "Roboto", sans-serif;
-  color: #696969;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-size: 18px;
+  color: #696969;
 }
 /* line 30, ../sass/partials/_admin_navbar.scss */
 .navbar_menu .nav_bar li a .img_nav {
-  width: 24px;
-  height: 24px;
   margin-right: 25px;
+  height: 24px;
+  width: 24px;
 }
 
 /* line 1, ../sass/partials/_admin_dropdown_list.scss */
 .dropdown-menu {
-  display: none;
   position: absolute;
-  top: 53px;
-  right: 25px;
   min-height: 56px;
+  display: none;
   width: 286px;
+  right: 25px;
+  top: 53px;
 }
 /* line 8, ../sass/partials/_admin_dropdown_list.scss */
 .dropdown-menu li {
@@ -185,34 +200,34 @@ body {
 /* line 1, ../sass/partials/_admin_main.scss */
 .container_main {
   font-family: "Roboto", sans-serif;
-  padding-top: 0;
-  width: 75%;
-  min-width: 745px;
-  position: relative;
-  overflow: auto;
-  height: 100%;
   min-height: 1300px;
+  position: relative;
+  min-width: 745px;
   margin-left: 22%;
+  overflow: auto;
+  padding-top: 0;
+  height: 100%;
+  width: 75%;
 }
 /* line 11, ../sass/partials/_admin_main.scss */
 .container_main .admin_title_main {
+  margin: 55px 20px 20px 35px;
   font-size: 27px;
   color: #676767;
-  margin: 55px 20px 20px 35px;
 }
 
 /* line 1, ../sass/partials/_admin_main_blocks.scss */
 .blocks {
-  cursor: pointer;
   margin: 50px 5px 20px 20px;
+  cursor: pointer;
 }
 /* line 4, ../sass/partials/_admin_main_blocks.scss */
 .blocks .block_content {
-  width: 20%;
-  min-height: 210px;
-  background-color: #fff;
-  margin-right: 1%;
   padding: 25px 18px 15px 18px;
+  background-color: #fff;
+  min-height: 210px;
+  margin-right: 1%;
+  width: 20%;
 }
 /* line 11, ../sass/partials/_admin_main_blocks.scss */
 .blocks .img_content {
@@ -223,61 +238,61 @@ body {
 }
 /* line 17, ../sass/partials/_admin_main_blocks.scss */
 .blocks .block_description {
-  font-size: 20px;
+  padding: 30px 5px 30px 5px;
   text-align: center;
   font-weight: bold;
-  padding: 30px 5px 30px 5px;
+  font-size: 20px;
   color: #34495d;
 }
 /* line 24, ../sass/partials/_admin_main_blocks.scss */
 .blocks .btn_block {
-  background-color: #009be5;
-  font-size: 15px;
-  font-weight: bold;
   padding: 10px 70px 10px 70px;
   margin: 15px 0px 10px 0px;
-  border-radius: 3px;
+  background-color: #009be5;
   text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
   color: #fff;
 }
 /* line 33, ../sass/partials/_admin_main_blocks.scss */
 .blocks .btn_block:hover {
-  background: #47799;
+  background-color: #2F5161;
 }
 
 /* line 1, ../sass/partials/_admin_main_support.scss */
 .blocks_support {
-  cursor: pointer;
   margin: 50px 5px 20px 20px;
+  cursor: pointer;
 }
 /* line 4, ../sass/partials/_admin_main_support.scss */
 .blocks_support .block_content_support {
-  width: 20%;
+  padding: 25px 18px 15px 18px;
   min-height: 210px;
   margin-right: 9%;
-  padding: 25px 18px 15px 18px;
+  width: 20%;
 }
 /* line 10, ../sass/partials/_admin_main_support.scss */
 .blocks_support .img_circle {
+  padding-bottom: 35px;
   display: table;
   margin: auto;
-  padding-bottom: 35px;
 }
 /* line 15, ../sass/partials/_admin_main_support.scss */
 .blocks_support .btn_block_support {
-  background-color: #009be5;
-  display: table;
-  font-size: 15px;
-  font-weight: bold;
   padding: 15px 55px 15px 55px;
-  margin: auto;
-  border-radius: 3px;
+  background-color: #009be5;
   text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  display: table;
+  margin: auto;
   color: #fff;
 }
 /* line 25, ../sass/partials/_admin_main_support.scss */
 .blocks_support .btn_block_support:hover {
-  background-color: #47799;
+  background-color: #2F5161;
 }
 /* line 29, ../sass/partials/_admin_main_support.scss */
 .blocks_support .pad_btn {
@@ -285,22 +300,23 @@ body {
 }
 /* line 32, ../sass/partials/_admin_main_support.scss */
 .blocks_support .description_support {
-  font-size: 15px;
-  text-align: center;
-  font-weight: bold;
   padding: 30px 5px 30px 5px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: bold;
+  font-size: 15px;
   color: #34495d;
 }
 
 /*SCROLLER*/
 /* line 1, ../sass/partials/_admin_scroller.scss */
 #scroller {
-  bottom: 0px;
-  right: 20px;
-  padding: 20px;
+  border: 2px solid #3bb0e8;
   background-color: #fff;
   border-radius: 30px;
-  border: 2px solid #3bb0e8;
+  padding: 20px;
+  bottom: 0px;
+  right: 20px;
 }
 /* line 8, ../sass/partials/_admin_scroller.scss */
 #scroller i {
@@ -311,10 +327,10 @@ body {
 /*ADMIN_FOOTER*/
 /* line 1, ../sass/partials/_admin_footer.scss */
 .footer_copy {
-  background-color: #7f8c8d;
   -webkit-box-shadow: 0px 6px 5px 6px #d2d2d2;
   -moz-box-shadow: 0px 6px 5px 6px #d2d2d2;
   box-shadow: 0px 6px 5px 6px #d2d2d2;
+  background-color: #7f8c8d;
   min-height: 70px;
 }
 /* line 7, ../sass/partials/_admin_footer.scss */
@@ -327,6 +343,7 @@ body {
   color: #fff;
 }
 
+/*LOGIN PAGE*/
 /* line 1, ../sass/partials/_admin_login.scss */
 .login_page {
   background-color: #009be5;
@@ -368,20 +385,6 @@ body {
   width: 40%;
 }
 /* line 33, ../sass/partials/_admin_login.scss */
-.login_page .login_form .login_inp {
-  padding: 10px 5px 10px 15px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  outline-color: #1abc9c;
-  margin: 20px 0 10px 25px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 18px;
-  color: #34495e;
-  border: none;
-  width: 81%;
-}
-/* line 46, ../sass/partials/_admin_login.scss */
 .login_page .login_form .login_submit {
   padding: 15px 0px 14px 0px;
   background-color: #009be5;
@@ -389,13 +392,18 @@ body {
   border-radius: 7px;
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
   display: table;
   margin: auto;
   border: none;
   color: #fff;
   width: 87%;
 }
-/* line 59, ../sass/partials/_admin_login.scss */
+/* line 46, ../sass/partials/_admin_login.scss */
+.login_page .login_form .login_submit:hover {
+  background-color: #2F5161;
+}
+/* line 50, ../sass/partials/_admin_login.scss */
 .login_page .login_form .forgot_ps {
   text-decoration: underline;
   padding-top: 16px;
@@ -403,6 +411,364 @@ body {
   color: #cfd5d9;
   display: table;
   margin: auto;
+}
+
+/*ALL ELEMENT PAGE*/
+/* line 1, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements {
+  margin: 50px 5px 20px 35px;
+  cursor: pointer;
+}
+/* line 4, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .title_block_desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #666666;
+}
+/* line 10, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs {
+  margin: 0 0 30px 10px;
+}
+/* line 12, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .input_element {
+  padding: 7px 5px 7px 10px;
+  margin: 20px 18px 10px 0;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #34495e;
+  border: none;
+  width: 21%;
+}
+/* line 23, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .un_active {
+  border: 1px solid #d4d9dc;
+  outline-color: #d4d9dc;
+}
+/* line 27, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .active {
+  border: 2px solid #009be5;
+  font-weight: bold;
+}
+/* line 30, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .active::-webkit-input-placeholder {
+  color: #34485d;
+}
+/* line 33, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .active::-moz-input-placeholder {
+  color: #34485d;
+}
+/* line 37, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .alert {
+  border: 2px solid #e74c3c;
+  outline-color: #e74c3c;
+  font-weight: bold;
+}
+/* line 41, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .alert::-webkit-input-placeholder {
+  color: #e74c3c;
+}
+/* line 44, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .alert::-moz-placeholder {
+  color: #e74c3c;
+}
+/* line 48, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .disabled {
+  background-color: #dee2e4;
+  outline-color: #d4d9dc;
+}
+/* line 51, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .disabled::-webkit-input-placeholder {
+  color: #c4cbce;
+}
+/* line 54, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_inputs .disabled::-moz-placeholder {
+  color: #c4cbce;
+}
+/* line 59, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders {
+  margin: 0 0 30px 10px;
+}
+/* line 61, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .progressbars_sliders {
+  width: 30%;
+  margin-right: 75px;
+}
+/* line 64, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .progressbars_sliders .progress_bar {
+  margin: 20px 0 20px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 13px;
+  width: 48%;
+}
+/* line 70, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .progressbars_sliders .progress_bar::-webkit-progress-value {
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #009be5;
+}
+/* line 76, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .progressbars_sliders .long {
+  width: 82%;
+}
+/* line 79, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .progressbars_sliders .middle {
+  width: 62%;
+}
+/* line 82, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .progressbars_sliders .range_slider {
+  width: 48%;
+  margin: 20px 0 20px 0;
+}
+/* line 85, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .progressbars_sliders .range_slider::-webkit-slider-runnable-track {
+  background: #009be5;
+  border-radius: 10px;
+  height: 13px;
+  border: none;
+}
+/* line 91, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .progressbars_sliders .range_slider::-webkit-slider-thumb {
+  border-radius: 20px;
+  background: #eee;
+  margin-top: -4px;
+  padding: 10px;
+  border: none;
+  height: 25px;
+  width: 25px;
+}
+/* line 102, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation {
+  vertical-align: top;
+  width: 59%;
+}
+/* line 106, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .first_element:hover {
+  background-color: #2980B9;
+  border-radius: 6px 0 0 6px;
+}
+/* line 112, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .last_element:hover {
+  background-color: #2980B9;
+  border-radius: 0 6px 6px 0;
+}
+/* line 117, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_icons {
+  margin: 25px 40px 25px 0;
+  width: 164px;
+  background-color: #009be5;
+  border-radius: 6px;
+}
+/* line 122, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_icons .active_nav {
+  background-color: #2980B9;
+}
+/* line 126, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_icons ul li {
+  display: inline-block;
+  padding: 10px 13px 10px 13px;
+  margin-left: -4px;
+}
+/* line 130, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_icons ul li:hover {
+  background-color: #2980B9;
+}
+/* line 133, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_icons ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 140, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_selectors {
+  background-color: #009be5;
+  vertical-align: top;
+  border-radius: 6px;
+  margin: 25px 0 25px 0;
+  width: 195px;
+}
+/* line 147, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_selectors ul .r_border {
+  border-right: 1px solid #008fd5;
+}
+/* line 150, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_selectors ul li {
+  display: inline-block;
+  padding: 10px 13px 10px 13px;
+}
+/* line 153, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_selectors ul li:hover {
+  background-color: #2980B9;
+}
+/* line 156, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .nav_selectors ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 163, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination {
+  width: 552px;
+  margin: 10px 0 10px 0;
+}
+/* line 166, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list {
+  background-color: #d7dcde;
+}
+/* line 168, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list .first_el_pag {
+  border-right: 1px solid #fff;
+  border-radius: 6px 0 0 6px;
+  padding: 10px;
+  font-size: 15px;
+}
+/* line 173, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list .first_el_pag a {
+  color: #fff;
+  background-color: #d7dcde;
+}
+/* line 176, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list .first_el_pag a:hover {
+  padding: 0px 4px 0px 4px;
+  border-radius: none;
+  background-color: #fff;
+}
+/* line 183, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list .last_el_pag {
+  border-left: 1px solid #fff;
+  border-radius: 0 6px 6px 0;
+  padding: 10px;
+  font-size: 15px;
+}
+/* line 188, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list .last_el_pag a {
+  color: #fff;
+  background-color: #d7dcde;
+}
+/* line 193, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list li {
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
+}
+/* line 196, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list li a {
+  background-color: #fff;
+  padding: 0 5px 0 7px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 12px;
+}
+/* line 202, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .block_sliders .navigation .pagination .pagination_list li a:hover {
+  padding: 2px 10px 2px 8px;
+  border-radius: 25px;
+  background-color: #009be5;
+}
+/* line 213, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks {
+  margin: 0 0 30px 10px;
+}
+/* line 215, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .checkbox_radio_block {
+  width: 25%;
+  margin-right: 10px;
+}
+/* line 218, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .checkbox_radio_block .checkboxes_radio_desc {
+  margin: 30px 0 10px 0;
+}
+/* line 220, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .checkbox_radio_block .checkboxes_radio_desc .check_radio_icons {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #767777;
+  padding-top: 10px;
+}
+/* line 225, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .checkbox_radio_block .checkboxes_radio_desc .check_radio_icons .icon_marg {
+  font-size: 20px;
+  color: #d7dcde;
+  margin-right: 10px;
+}
+/* line 230, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .checkbox_radio_block .checkboxes_radio_desc .check_radio_icons .bg_checked {
+  color: #009be5;
+}
+/* line 236, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block {
+  width: 25%;
+  margin-left: 10px;
+  vertical-align: top;
+}
+/* line 240, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc {
+  margin: 30px 0 10px 0;
+}
+/* line 242, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .block_marg_r {
+  margin-right: 20px;
+}
+/* line 245, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_oval {
+  width: 75px;
+  height: 27px;
+  color: #009be5;
+  border-radius: 20px;
+  background-color: #bcc3c6;
+}
+/* line 251, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_oval .togg_on {
+  padding: 2px 0 0 10px;
+}
+/* line 253, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_oval .togg_on .toggles_circle {
+  font-size: 20px;
+  padding-left: 14px;
+}
+/* line 259, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_oval_off {
+  width: 75px;
+  height: 27px;
+  color: #009be5;
+  border-radius: 20px;
+  background-color: #bcc3c6;
+}
+/* line 265, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_oval_off .togg_off {
+  padding-top: 2px;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 269, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_oval_off .togg_off .toggles_circle_off {
+  font-size: 20px;
+  padding-left: 9px;
+  padding-right: 5px;
+  color: #7f8c8d;
+}
+/* line 277, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_square {
+  width: 75px;
+  height: 27px;
+  color: #009be5;
+  border-radius: 4px;
+  background-color: #bcc3c6;
+}
+/* line 283, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_square .togg_square_on {
+  padding: 2px 0 0 10px;
+}
+/* line 285, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_square .togg_square_on .toggles_square_icon {
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 9px;
+}
+/* line 290, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .che_radio_too_blocks .toogles_block .toggles_desc .toggles_square .togg_square_on .togg_square_icon {
+  font-size: 30px;
+  margin: -4px 1px 0 0;
 }
 
 /* line 5, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */

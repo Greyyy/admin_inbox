@@ -134,7 +134,7 @@
 					</a>
 				</div>
 				<div class="block_content uni_display">
-					<img src="image/Open Folder-100.png" alt="subcategory" class="img_content">
+					<img src="image/Open-Folder-100.png" alt="subcategory" class="img_content">
 					<p class="block_description">
 						Подкатегории
 					</p>

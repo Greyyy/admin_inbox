@@ -1,39 +1,40 @@
 .blocks_support {
-	cursor: pointer;
 	margin: 50px 5px 20px 20px;	
+	cursor: pointer;
 	.block_content_support {
-		width: 20%;
+	  	padding: 25px 18px 15px 18px;
 	  	min-height: 210px;
 	  	margin-right: 9%;
-	  	padding: 25px 18px 15px 18px;
+		width: 20%;
 	}
 	.img_circle {
+	  	padding-bottom: 35px; 
 		display: table;
 	  	margin: auto;
-	  	padding-bottom: 35px; 
 	}
 	.btn_block_support {
-		background-color: #009be5;
-	    display: table;
-	    font-size: 15px;
-	    font-weight: bold;
 	    padding: 15px 55px 15px 55px;
-			margin: auto;
-	    border-radius: 3px;
+		background-color: #009be5;
 	    text-decoration: $decor;
+	    border-radius: 3px;
+	    font-weight: bold;
+	    font-size: 15px;
+	    display: table;
+		margin: auto;
 		color: #fff;
 		&:hover {
-			background-color: #47799;
+			background-color: #2F5161;
 		}
 	}
 	.pad_btn {
 		padding: 15px 30px 15px 30px;
 	}			
 	.description_support {
-		font-size: 15px;
-		text-align: center;
-		font-weight: bold;
 		padding: 30px 5px 30px 5px;
-		color: #34495d;	
+		text-align: center;
+		line-height: 22px;	
+		font-weight: bold;
+		font-size: 15px;
+		color: #34495d;
 	}
 }

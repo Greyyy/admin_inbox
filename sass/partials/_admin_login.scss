@@ -30,19 +30,6 @@
 		vertical-align: top;
 		height: 250px;
 		width: 40%;
-		.login_inp {
-		  	padding: 10px 5px 10px 15px;
-		  	line-height: 1.42857143;
-		  	background-color: #fff;
-     		outline-color: #1abc9c;
-     		margin: 20px 0 10px 25px;
-		  	border-radius: 5px;
-		  	font-weight: bold;
-		  	font-size: 18px;
-		  	color: #34495e;
-		  	border: none;
-			width: 81%;
-		}
 		.login_submit {
 		  	padding: 15px 0px 14px 0px;
 		  	background-color: #009be5;
@@ -50,11 +37,15 @@
 		  	border-radius: 7px;
 		  	font-weight: bold;
 		  	font-size: 16px;
+		  	cursor: pointer;
 		  	display: table;
 		  	margin: auto;
 		  	border: none;
 		  	color: #fff;
 		    width: 87%;
+		    &:hover {
+		    	background-color: #2F5161;
+		    }
 		}
 		.forgot_ps {
 			text-decoration: underline;

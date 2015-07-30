@@ -1,17 +1,17 @@
 .dropdown-menu {
-	display: none;
 	position: absolute;
-	top: 53px;
-	right: 25px;
-  	min-height: 56px;
-  	width: 286px;
-  	li {
-    	background: url("../image/Container.png") no-repeat;
-	  	padding: 25px 10px 15px 84px;
-  		font-size: 15px;
-  		.form_logout {
-  			cursor: pointer;
+  min-height: 56px;
+  display: none;
+  width: 286px;
+  right: 25px;
+  top: 53px;
+  li {
+    background: url("../image/Container.png") no-repeat;
+	  padding: 25px 10px 15px 84px;
+  	font-size: 15px;
+  	.form_logout {
+  		cursor: pointer;
 			color: #696969;
-  		}
   	}
+  }
 }

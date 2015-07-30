@@ -1,12 +1,12 @@
 .blocks {
-	cursor: pointer;
 	margin: 50px 5px 20px 20px;
+	cursor: pointer;
 	.block_content {
-  		width: 20%;
-  		min-height: 210px;
-  		background-color: #fff;
-  		margin-right: 1%;
   		padding: 25px 18px 15px 18px;
+  		background-color: #fff;
+  		min-height: 210px;
+  		margin-right: 1%;
+  		width: 20%;
 	}
 	.img_content {
 	  	display: table;
@@ -15,23 +15,23 @@
 	  	height: 100px;
 	}
 	.block_description {
-		font-size: 20px;
+		padding: 30px 5px 30px 5px;
 		text-align: center;
 		font-weight: bold;
-		padding: 30px 5px 30px 5px;
+		font-size: 20px;
 		color: #34495d;	
 	}
 	.btn_block {
-		background-color: #009be5;
-	    font-size: 15px;
-	    font-weight: bold;
 	    padding: 10px 70px 10px 70px;
 	    margin: 15px 0px 10px 0px;
-	    border-radius: 3px;
+		background-color: #009be5;
 	    text-decoration: $decor;
+	    border-radius: 3px;
+	    font-weight: bold;
+	    font-size: 15px;
 		color: #fff;
 		&:hover {
-			background: #47799;
+			background-color: #2F5161;
 		}
 	}
 }
