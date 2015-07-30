@@ -1,5 +1,5 @@
 .login_page {
-	background-color: #009be5;
+	background-color: $main_bluish;
 	min-height: 700px;
 	width: 100%;
 	.login_pad {
@@ -21,7 +21,7 @@
 			line-height: 20px;
 			text-align: right;
 			font-size: 18px;
-			color: #fff;
+			color: $f;
 		}
 	}
 	.login_form {
@@ -30,9 +30,19 @@
 		vertical-align: top;
 		height: 250px;
 		width: 40%;
+		.icon_user {
+			background-image: url('../image/i_user.png');
+			background-repeat: no-repeat;
+			background-position: 300px;
+		}
+		.icon_lock {
+			background-image: url('../image/i_lock.png');
+			background-repeat: no-repeat;
+			background-position: 300px;
+		}
 		.login_submit {
+		  	background-color: $main_bluish;
 		  	padding: 15px 0px 14px 0px;
-		  	background-color: #009be5;
 		  	text-decoration: none;
 		  	border-radius: 7px;
 		  	font-weight: bold;
@@ -41,17 +51,17 @@
 		  	display: table;
 		  	margin: auto;
 		  	border: none;
-		  	color: #fff;
 		    width: 87%;
+		  	color: $f;
 		    &:hover {
-		    	background-color: #2F5161;
+		    	background-color: $btn_hover;
 		    }
 		}
 		.forgot_ps {
 			text-decoration: underline;
+			color: $font_color;
   			padding-top: 16px;	
 			font-size: 14px;
-			color: #cfd5d9;
   			display: table;
 		  	margin: auto;
 		}

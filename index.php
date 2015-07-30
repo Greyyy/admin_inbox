@@ -4,15 +4,14 @@
 	<title>Административный доступ</title>
 	
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link rel='stylesheet' href="stylesheets/font-awesome.min.css">
-	<link rel="stylesheet" href="stylesheets/reset.css">
+	<link rel='stylesheet' href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/reset.css">
 
-	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/scrollUp.js"></script>
@@ -31,7 +30,7 @@
 						</span>
 				</button>
 				<div class="logotype uni_display">
-					<a href="#">
+					<a href="index.php">
 						company name
 					</a>
 				</div>

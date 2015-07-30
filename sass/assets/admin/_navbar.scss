@@ -2,7 +2,7 @@
   	-webkit-box-shadow: 0px 6px 5px 6px #d2d2d2;
   	-moz-box-shadow: 0px 6px 5px 6px #d2d2d2;
   	box-shadow: 0px 6px 5px 6px #d2d2d2;
-  	background-color: #fff;
+  	background-color: $f;
   	min-height: 1288px;
 	position: absolute;
 	left: -295px;
@@ -12,21 +12,21 @@
 		.active {
   			border-bottom: 1px solid #f7f9f9;
 			border-top: 1px solid #f7f9f9;
-			background-color: #ecf0f1;
+			background-color: $main_bg;
 		}
 		li {
 			padding: 15px 15px 15px 26px;
-			display: block;
 			cursor: pointer;
+			display: block;
 			&:hover {
-				background-color: #ecf0f1;
+				background-color: $main_bg;
 			}
 			a {
 				text-transform: uppercase;
 				font-family: $main_font;
 				text-decoration: none;
+				color: $font_color;
 				font-size: 18px;
-				color: #696969;
 				.img_nav {
 					margin-right: 25px;
 					height: 24px;

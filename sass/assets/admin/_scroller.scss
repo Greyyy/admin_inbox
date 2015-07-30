@@ -1,12 +1,12 @@
 #scroller {
 	border: 2px solid #3bb0e8;
-	background-color: #fff;
+	background-color: $f;
 	border-radius: 30px;
 	padding: 20px;
 	bottom: 0px;
 	right: 20px;
 	i {
+		color: $main_bluish;
 		font-size: 18px;
-		color: #3bb0e8;
 	}
 }

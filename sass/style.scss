@@ -12,47 +12,67 @@ body {
 }
 
 // VARIABLES
-@import "partials/admin_variables";
+@import "assets/admin/variables";
 
 //HELPERS
-@import "partials/admin_helpers";
+@import "assets/admin/helpers";
 
 //HEADER
 /* HEADER */
-@import "partials/admin_header";
+@import "assets/admin/header";
 
 //NAVBAR
 /*NAVBAR*/
-@import "partials/admin_navbar";
+@import "assets/admin/navbar";
 
 //DROPLIST
-@import "partials/admin_dropdown_list";
+@import "assets/admin/dropdown_list";
 
 //MAIN_BLOCK
 /*MAIN_BLOC*/
-@import "partials/admin_main";
+@import "assets/admin/main";
 
 //MAIN_CONTENT_BLOCKS
-@import "partials/admin_main_blocks";
+@import "assets/admin/main_blocks";
 
 //MAIN_CONTENT_BLOCKS_SUPPORT
-@import "partials/admin_main_support";
+@import "assets/admin/main_support";
 
 //SCROLLER
 /*SCROLLER*/
-@import "partials/admin_scroller";
+@import "assets/admin/scroller";
 
 //ADMIN_FOOTER
 /*ADMIN_FOOTER*/
-@import "partials/admin_footer";
+@import "assets/admin/footer";
 
 //LOGIN PAGE
 /*LOGIN PAGE*/
-@import "partials/admin_login";
+@import "assets/admin/login";
 
 //ALL ELEMENT PAGE
 /*ALL ELEMENT PAGE*/
-@import "partials/admin_all_elements";
+@import "assets/admin/all_elements";
+
+//BLOCK INPUT
+/*BLOCK INPUT*/
+@import "assets/admin/block_input";
+
+//BLOCK SLIDERS
+/*BLOCK SLIDERS*/
+@import "assets/admin/block_sliders";
+
+//BTN GROUP
+/*BTN GROUP*/
+@import "assets/admin/btn_group_block";
+
+//CHECK TOOLBARS BLOCK
+/*CHECK TOOLBARS BLOCK*/
+@import "assets/admin/check_toolbars_block";
+
+//CHECK TOOLBTIP TEXT BLOCK
+/*CHECK TOOLBTIP TEXT BLOCK*/
+@import "assets/admin/tooltip_text_block";
 
 //RESET
 @import "compass/reset";

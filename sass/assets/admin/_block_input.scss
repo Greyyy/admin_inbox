@@ -1,0 +1,49 @@
+.block_inputs {
+	margin: 0 0 30px 10px;
+	.input_element {
+	  	padding: 7px 5px 7px 10px;
+  	  	margin: 20px 18px 10px 0;
+  	  	line-height: 1.42857143;
+  	  	background-color: $f;
+  	  	color: $wet_asphalt;
+  	  	border-radius: 5px;
+  	  	font-size: 14px;
+  	  	border: none;
+  	  	width: 21%;
+	}
+	.un_active {
+		border: 1px solid $silver;
+		outline-color: $silver; 
+	}
+	.active {
+		border: 2px solid $main_bluish;
+		font-weight: bold;
+		&::-webkit-input-placeholder {
+			color: $wet_asphalt;
+		}
+		&::-moz-input-placeholder {
+			color: $wet_asphalt;
+		}  
+	}
+	.alert {
+		border: 2px solid $pomegranate;
+		outline-color: $pomegranate; 
+		font-weight: bold;
+		&::-webkit-input-placeholder {
+			color: $pomegranate;
+		}
+		&::-moz-placeholder {
+			color: $pomegranate;
+		} 
+	}
+	.disabled {
+		background-color: $silver;
+		outline-color: $silver;
+		&::-webkit-input-placeholder {
+			color: $main_bg;
+		}
+		&::-moz-placeholder {
+			color: $main_bg;
+		}
+	}
+}

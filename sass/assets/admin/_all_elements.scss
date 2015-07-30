@@ -1,0 +1,10 @@
+.blocks_elements {
+	margin: 50px 5px 20px 35px;
+	cursor: pointer;
+	.title_block_desc {
+		font-family: $main_font;
+		color: $font_color;
+		font-weight: bold;
+		font-size: 25px;
+	}
+}

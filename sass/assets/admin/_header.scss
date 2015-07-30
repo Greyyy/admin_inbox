@@ -2,7 +2,7 @@
 	-webkit-box-shadow: 0px 6px 5px 0px #d2d2d2;
   	-moz-box-shadow: 0px 6px 5px 0px #d2d2d2;
   	box-shadow: 0px 6px 5px 0px #d2d2d2;
-	background-color: #039be5;
+	background-color: $main_bluish;
 	position: relative;
 	display: block;
 	height: 100%;
@@ -11,7 +11,7 @@
 .btn_navbar {
 	margin: 20px 25px 25px 20px;
 	.icon-bar {
-	    background-color: #fff; 
+	    background-color: $f; 
 	    border-radius: 1px;
 	    margin-top: 3px;
 	    display: block;
@@ -30,26 +30,26 @@
 	margin-left: 15px;
 	a {
 		font-family: $main_font;
-		text-decoration: $decor;
+		text-decoration: none;
 		font-size: 25px;
-		color: #fff;
+		color: $f;
 	}
 }
 .icon_button {
-	text-decoration: $decor;
+	text-decoration: none;
 	font-size: 15px;
-	color: #fff;
+	color: $f;
 	i {
 	  	font-size: $icon-font;
 		margin-right: 10px;
 	}
 }
 .btn_header_admin {
-	cursor: pointer;
 	margin-left: 40px;
+	cursor: pointer;
 	.admin_header_btn {
-		color: #fff;
 		font-size: 15px;
+		color: $f;
 		.desc_btn {
 			margin: 0 10px 0 10px;
 		}

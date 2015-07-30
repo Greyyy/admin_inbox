@@ -1,0 +1,27 @@
+.btn_group {
+	margin: 0 0 30px 10px; 
+	width: 40%;
+	.btn_block {
+		margin-top: 15px;
+		.btn_warm {
+			padding: 15px 70px 15px 70px;
+			background-color: $main_bluish;
+    		text-decoration: none;
+			margin-bottom: 15px;
+    		border-radius: 6px;
+    		font-weight: bold;
+    		font-size: 15px;
+    		border: none;
+			color: #fff;
+			&:hover {
+				background-color: $btn_hover;
+			}
+		}
+		.btn_hover {
+			background-color: #33afea;
+		}
+		.btn_active {
+			background-color: $btn_hover;
+		}
+	}
+}

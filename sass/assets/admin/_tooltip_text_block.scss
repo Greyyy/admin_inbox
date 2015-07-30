@@ -1,0 +1,69 @@
+.tooltip_box_h {
+	margin: 0 0 30px 10px; 
+	.tool_box_head_block {
+		width: 30%;
+		margin-right: 20px;
+		vertical-align: top;
+		font-family: $main_font;
+		color: $f;
+		.tooltip_sm {
+			background-image: url('../image/tooltip_sm_up.png');
+			background-repeat: no-repeat;
+			font-size: 14px;
+		  	height: 30px;
+				width: 71%;
+			font-weight: bold;
+				margin: 20px 0 10px 0;
+				text-align: center;
+				padding-top: 23px;
+		}
+		.tooltip_big {
+			background: url('../image/tooltip_big.png');
+			background-repeat: no-repeat;
+		  	height: 65px;
+		  	font-size: 14px;
+		  	font-weight: bold;
+			padding-top: 20px;
+				text-align: center;
+			 	width: 72%;
+		} 
+	}
+	.text_box {
+		width: 96%;
+		margin-top: 25px;
+		font-family: $main_font;
+		font-size: 14px;
+		color: $font_color;
+		line-height: 18px;
+		.text_desc {
+			margin-bottom: 15px;
+			.ancor {
+				color: $main_bluish;
+			}
+		}
+	}
+	.headers_block {
+		margin-top: 25px;
+		.header_desc {
+			color: $font_color;
+			margin-bottom: 10px;
+		}
+		.h1 {
+			font-size: 2em;
+		}
+		.h2 {
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+		.h3 {
+			font-size: 1.17em;
+			font-weight: bold;
+		}
+		.h4 {
+			font-weight: bold;
+		}
+		.h5 {
+			font-size: 15px;
+		}
+	}
+}
