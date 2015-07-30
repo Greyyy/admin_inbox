@@ -296,4 +296,98 @@
 			}
 		}
 	}
+	.tooltip_box_h {
+		margin: 0 0 30px 10px; 
+		.tool_box_head_block {
+			width: 30%;
+			margin-right: 20px;
+			vertical-align: top;
+			font-family: $main_font;
+			color: #fff;
+			.tooltip_sm {
+				background: url('../image/tooltip_sm_up.png') no-repeat;
+				font-size: 14px;
+			  	height: 30px;
+  				width: 71%;
+				font-weight: bold;
+  				margin: 20px 0 10px 0;
+  				text-align: center;
+  				padding-top: 23px;
+			}
+			.tooltip_big {
+				background: url('../image/tooltip_big.png') no-repeat;
+			  	height: 65px;
+			  	font-size: 14px;
+			  	font-weight: bold;
+				padding-top: 20px;
+  				text-align: center;
+ 			 	width: 72%;
+			} 
+		}
+		.text_box {
+			width: 96%;
+			margin-top: 25px;
+			font-family: $main_font;
+			font-size: 14px;
+			color: #666666;
+			line-height: 18px;
+			.text_desc {
+				margin-bottom: 15px;
+				.ancor {
+					color: #009be5;
+				}
+			}
+		}
+		.headers_block {
+			margin-top: 25px;
+			.header_desc {
+				color: #666666;
+				margin-bottom: 10px;
+			}
+			.h1 {
+				font-size: 2em;
+			}
+			.h2 {
+				font-size: 1.5em;
+				font-weight: bold;
+			}
+			.h3 {
+				font-size: 1.17em;
+				font-weight: bold;
+			}
+			.h4 {
+				font-weight: bold;
+			}
+			.h5 {
+				font-size: 15px;
+			}
+		}
+	}
+	.btn_group {
+		margin: 0 0 30px 10px; 
+		width: 40%;
+		.btn_block {
+			margin-top: 15px;
+			.btn_warm {
+				padding: 15px 70px 15px 70px;
+				background-color: #009be5;
+	    		text-decoration: $decor;
+				margin-bottom: 15px;
+	    		border-radius: 6px;
+	    		font-weight: bold;
+	    		font-size: 15px;
+	    		border: none;
+				color: #fff;
+				&:hover {
+					background-color: #33afea;
+				}
+			}
+			.btn_hover {
+				background-color: #33afea;
+			}
+			.btn_active {
+				background-color: #0084c3;
+			}
+		}
+	}
 }

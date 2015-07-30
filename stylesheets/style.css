@@ -770,6 +770,120 @@ body {
   font-size: 30px;
   margin: -4px 1px 0 0;
 }
+/* line 299, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h {
+  margin: 0 0 30px 10px;
+}
+/* line 301, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .tool_box_head_block {
+  width: 30%;
+  margin-right: 20px;
+  vertical-align: top;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+/* line 307, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .tool_box_head_block .tooltip_sm {
+  background: url("../image/tooltip_sm_up.png") no-repeat;
+  font-size: 14px;
+  height: 30px;
+  width: 71%;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  text-align: center;
+  padding-top: 23px;
+}
+/* line 317, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .tool_box_head_block .tooltip_big {
+  background: url("../image/tooltip_big.png") no-repeat;
+  height: 65px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+  width: 72%;
+}
+/* line 327, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .text_box {
+  width: 96%;
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #666666;
+  line-height: 18px;
+}
+/* line 334, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .text_box .text_desc {
+  margin-bottom: 15px;
+}
+/* line 336, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .text_box .text_desc .ancor {
+  color: #009be5;
+}
+/* line 341, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .headers_block {
+  margin-top: 25px;
+}
+/* line 343, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .headers_block .header_desc {
+  color: #666666;
+  margin-bottom: 10px;
+}
+/* line 347, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .headers_block .h1 {
+  font-size: 2em;
+}
+/* line 350, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .headers_block .h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+/* line 354, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .headers_block .h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+/* line 358, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .headers_block .h4 {
+  font-weight: bold;
+}
+/* line 361, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .tooltip_box_h .headers_block .h5 {
+  font-size: 15px;
+}
+/* line 366, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .btn_group {
+  margin: 0 0 30px 10px;
+  width: 40%;
+}
+/* line 369, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .btn_group .btn_block {
+  margin-top: 15px;
+}
+/* line 371, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .btn_group .btn_block .btn_warm {
+  padding: 15px 70px 15px 70px;
+  background-color: #009be5;
+  text-decoration: none;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  color: #fff;
+}
+/* line 381, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .btn_group .btn_block .btn_warm:hover {
+  background-color: #33afea;
+}
+/* line 385, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .btn_group .btn_block .btn_hover {
+  background-color: #33afea;
+}
+/* line 388, ../sass/partials/_admin_all_elements.scss */
+.blocks_elements .btn_group .btn_block .btn_active {
+  background-color: #0084c3;
+}
 
 /* line 5, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,

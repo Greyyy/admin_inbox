@@ -303,6 +303,76 @@
 						</div>						
 					</div>
 				</div>
+				<div class="tooltip_box_h">
+					<div class="tool_box_head_block uni_display">
+						<h2 class="title_block_desc">
+							Tooltips
+						</h2>
+						<div class="tooltip_sm">
+							Tooltip under the text
+						</div>
+						<div class="tooltip_big">
+							Here is the smple of talltooltip that contains three lines or more.
+							<p>
+								More.
+							</p> 
+						</div>
+					</div>
+					<div class="tool_box_head_block uni_display">
+						<h2 class="title_block_desc">
+							Text Box
+						</h2>
+						<div class="text_box">
+							<p class="text_desc">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida a felis a lacinia. Pelentesque vei imperdiet urna. Vestibulum a ipsum ultrices, hendrerit esta, porta purus. Morbi sed faucibus dolor. 
+								<a href="#" class="ancor">
+									visual marker.
+								</a>
+							</p>
+							<p>
+								Maecenas gravida a felis a lacinia. Pellentesque vel imperdiet urna. Vestibulum a ipsum ultrices, henderit est a, porta purus.	
+							</p>
+						</div>
+					</div>
+					<div class="tool_box_head_block uni_display">
+						<h2 class="title_block_desc">
+							Headers
+						</h2>
+						<div class="headers_block">
+							<h1 class="header_desc h1">
+								Header 1
+							</h1>
+							<h2 class="header_desc h2">
+								Header 2
+							</h2>
+							<h3 class="header_desc h3">
+								Header 3
+							</h3>
+							<h4 class="header_desc h4">
+								Header 4
+							</h4>
+							<h5 class="header_desc h5">
+								Header 5
+							</h5>
+						</div>
+					</div>
+				</div>
+				<div class="btn_group">
+					<h2 class="title_block_desc">
+						Buttons
+					</h2>
+					<div class="btn_block">
+						<button class="btn_warm">
+							Warm Button
+						</button>
+						<button class="btn_warm btn_hover">
+							Warm Button
+						</button>
+						<button class="btn_warm btn_active">
+							Warm Button
+						</button>
+					</div>
+				</div>
 			</div>
 			<a id="scroller" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
 				<i class="fa fa-chevron-up fa-lg"></i>
